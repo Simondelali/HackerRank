@@ -8,3 +8,4 @@ if __name__ == '__main__':
     print('\n'.join(sorted([name for name, score in records if score == second_highest])))  
             
  
+  
