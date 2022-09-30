@@ -8,7 +8,7 @@ def fizzBuzz(n):
             print("Buzz")
         else:
             print(i)
-
+   
 while True:
     n = int(input("Enter a number to play :"))   
     fizzBuzz(n)
