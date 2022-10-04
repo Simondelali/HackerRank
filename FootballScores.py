@@ -10,7 +10,7 @@ def counts(teamA, teamB):
             else:
                 low = mid + 1
         answer.append(low)
-
+  
     return answer
 
 l1 = [1,2,3]
