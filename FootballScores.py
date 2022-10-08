@@ -7,7 +7,7 @@ def counts(teamA, teamB):
             mid = (low + high) // 2
             if teamA[mid] > score:
                 high = mid - 1
-            else:
+            else:   
                 low = mid + 1
         answer.append(low)
   
